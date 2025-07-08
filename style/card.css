@@ -1,0 +1,56 @@
+body{
+    max-width: 1170px;
+    /* background-color: rgb(238, 232, 225); */
+    margin: 0px auto;
+}
+.card-sectiion{
+    text-align: justify;
+    font-size: 1.50em;
+}
+.card-sectiion h2{
+    text-align: center;
+    font-size: 2.25em;
+    font-weight: bold;
+
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+.card{
+    background-color: rgb(234, 251, 198);
+    width: 300px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px black;
+    text-align: left;
+   
+}
+.card:hover{
+    background-color: aqua;
+}
+.card h3{
+    font-size: 1.25em;
+    font-weight: bold;
+    font-size: 1.30em;
+}
+.card button{
+    background-color: beige;
+    font-weight: bold;
+    font-size: 1.10em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,1);
+    
+    
+}
+.card button:hover{
+    background-color: chartreuse;
+}
+.card img{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
