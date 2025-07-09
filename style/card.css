@@ -1,16 +1,19 @@
 body{
     max-width: 1170px;
-    /* background-color: rgb(238, 232, 225); */
+    background-color: rgb(238, 232, 225);
     margin: 0px auto;
 }
 .card-sectiion{
     text-align: justify;
     font-size: 1.50em;
+    margin: 10px;
 }
 .card-sectiion h2{
     text-align: center;
     font-size: 2.25em;
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
 
 }
 .card-container{
